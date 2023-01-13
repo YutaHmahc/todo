@@ -47,11 +47,12 @@ function TodoListCard() {
         [items],
     );
 
+
     if (items === null) return 'Loading...';
 
     return (
         <React.Fragment>
-            <AddItemForm onNewItem={onNewItem} />
+            <p className="text-center">Testttttafagsdfa a asd fd</p>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
                 <p className="text-center">No items yet! Add one above!</p>
